@@ -521,7 +521,6 @@ namespace Prototype.NetworkLobby
             if (string.IsNullOrEmpty(publicIp))
             {
                 Debug.LogError("failed to detect public ip");
-                Application.Quit();
                 yield break;
             }
 
