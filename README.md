@@ -41,7 +41,7 @@ Server development is too broad topic to cover. So I will focus on making a dedi
 
 ## Prerequisites
 
-Prior to working with this project, you need to have **Azure account** ([free trial, requires credit card](https://azure.microsoft.com/en-us/free/)) or account actived via **Azure Pass** (temporary test account, that is provided for you by Microsoft).
+Prior to working with this project, you need **Azure account** ([free trial, requires credit card](https://azure.microsoft.com/en-us/free/)) or account activated via **Azure Pass** (temporary test account, that is provided for you by Microsoft).
 
 We'll be using docker containers, so f you're not familiar with **Docker**, you can take a brief introduction to technology [here](https://docs.docker.com/engine/docker-overview/).
 
