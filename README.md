@@ -307,6 +307,22 @@ To do it manually, open virtual machine overview and click `Stop` button. If you
 
 Do not forget to start Virtual Machines again if you want to play more with servers and kubectl command.
 
+## Game Servers Registry
+
+You can use game clients to open a list of available servers to connect. Since we've launched 2 replicas of servers, we expect to see 2 available servers. Click `Servers registry` button when you launch game client to list available servers.
+
+By default all launched servers in cloud report to mine instance of Game Servers Registry service. You can find source code for this service in [this](https://github.com/PoisonousJohn/GameServersRegistry) repo. If you follow instructions in that repository, you may deploy your own game servers registry.
+
+To make game servers report to your own instance of game servers registry change [this](https://github.com/PoisonousJohn/TanksNetworkingInAzure/blob/master/Dockerfile#L10) line in `Dockerfile` to point to url of your service.
+
+Also you need to update a game client to read list of servers from your service:
+
+1. Open LobbyScene
+1. Find LobbyManager->ServerRegistryListPanel object
+1. Change value "Server Registry Url" of "Lobby Server List" script to the same value you put to `DockerFile`
+1. Apply prefab changes
+1. Save scene
+
 ## What happened?
 
 You may be interested in details behind `kubectl apply` command. Basically it takes instructions from `deploy.yaml` file. Let's try to understand its contents.
