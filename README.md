@@ -60,7 +60,7 @@ our Unity server to cloud, we need to leverage container technologies. And we ne
 
 ## Downloading a project
 
-If you're familiar with git, you may just clone repository. If not, you may spend some time to get acquainted with git, or just download this repository as a [zip](https://github.com/PoisonousJohn/TanksNetworkingInAzure/archive/master.zip) archive.
+If you're familiar with git, you may just clone repository `git clone https://github.com/PoisonousJohn/TanksNetworkingInAzure.git`. If not, you may spend some time to get acquainted with git, or just download this repository as a [zip](https://github.com/PoisonousJohn/TanksNetworkingInAzure/archive/master.zip) archive.
 
 ## Building a dedicated game server
 
