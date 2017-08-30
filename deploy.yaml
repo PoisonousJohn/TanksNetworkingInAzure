@@ -11,8 +11,8 @@ spec:
     spec:
       hostNetwork: true
       imagePullSecrets:
-        - name: johnpsecret
+        - name: acrsecret
       containers:
-        - name: unetserver
+        - name: userver
           image: johnp.azurecr.io/userver:latest
           imagePullPolicy: Always
