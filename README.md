@@ -64,6 +64,10 @@ If you're familiar with git, you may just clone repository. If not, you may spen
 
 ## Building a dedicated game server
 
+### Short note for Mac OS and Linux users
+
+In this tutorial I use `PowerShell` as I worked under windows at the time. But you may follow it on Mac or Linux without any problems. Just use your favorite shell instead of PowerShell.
+
 ### Building unity server
 
 To host a dedicated game server, first we need to build it. Since the server doesn't require any graphical interface, we should ship ip in a "headless" mode. It's supported only in Linux builds. This means that you need to install a Linux Build Support for Unity (you can open Unity Download Assistant and select checkbox for Linux Build Support only).
