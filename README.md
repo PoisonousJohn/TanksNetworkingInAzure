@@ -359,5 +359,6 @@ It tells how many "replicas" of the server we want to launch. For instance, I've
 
 - [Azure Container Service](https://docs.microsoft.com/en-us/azure/container-service/kubernetes/) tutorials
 - [Docker](http://docker.com)
+- [Alternative introduction to Docker](https://chris.59north.com/post/My-intro-to-Docker-Part-1-of-something)
 - [Kubernetes](http://kubernetes.io)
 
